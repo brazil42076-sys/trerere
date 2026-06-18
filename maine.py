@@ -17,7 +17,7 @@ from collections import defaultdict
 # CONFIG
 # ============================================================
 
-BOT_TOKEN = os.environ.get("TELEGRAM_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Store user sessions
